@@ -15,11 +15,11 @@ C:/GUESS OR DIE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59378
+63985
 Successfully changed project path to: C:/GUESS OR DIE
 C:/GUESS OR DIE
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 105.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 105.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,19 +35,299 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011903 seconds.
+Registered in 0.005349 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 919.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 105.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.228 seconds
+- Completed reload, in  1.666 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.031773 seconds.
+Registered in 0.007069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 125.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.636 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.9 MB.
+System memory in use after: 183.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4177.
+Total: 6.105400 ms (FindLiveObjects: 0.979700 ms CreateObjectMapping: 0.549900 ms MarkObjects: 4.336600 ms  DeleteObjects: 0.237000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
+========================================================================
+Received Import Request.
+  path: Assets/Stylized Grass
+  artifactKey: Guid(b8951d8dac11cdc4b8a8b55e8f023714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass using Guid(b8951d8dac11cdc4b8a8b55e8f023714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd50482dd514f5f642031cee614d934') in 0.015330 seconds
+  Import took 0.025524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Player.mat
+  artifactKey: Guid(ac8c4be22d65b48448b667d846d64c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.mat using Guid(ac8c4be22d65b48448b667d846d64c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5a23f5cdcc408420306184fbfae50a') in 1.400469 seconds
+  Import took 1.415424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Stylized Grass/Textures
+  artifactKey: Guid(22170d56df19e38428c4018c1dbc7fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass/Textures using Guid(22170d56df19e38428c4018c1dbc7fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d0a4d372ef92bdd6cb02a812682b3f') in 0.004396 seconds
+  Import took 0.011306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/3D Assets/StylizedGrass/Grass Profile.asset
+  artifactKey: Guid(ad90d254e63fed849b487d547a6add68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/StylizedGrass/Grass Profile.asset using Guid(ad90d254e63fed849b487d547a6add68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0ff511b4d086dbd357c9ca3f523842') in 0.009686 seconds
+  Import took 0.019486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/3D Assets/StylizedGrass
+  artifactKey: Guid(52a9d061a645a54429706df6073ba2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/StylizedGrass using Guid(52a9d061a645a54429706df6073ba2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4c6134657f5a916f59cfdd9e9d6f2') in 0.007002 seconds
+  Import took 0.016476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/3D Assets/StylizedGrass/Textures
+  artifactKey: Guid(52b63dcab0ff9f744bbdf988e22a34a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/StylizedGrass/Textures using Guid(52b63dcab0ff9f744bbdf988e22a34a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deeb4680aca603d7ba0a8d7f4043e87') in 0.005052 seconds
+  Import took 0.012414 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.9 MB.
+System memory in use after: 111.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4520.
+Total: 5.550100 ms (FindLiveObjects: 0.440700 ms CreateObjectMapping: 0.168700 ms MarkObjects: 4.921600 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.703335 seconds.
+  path: Assets/Stylized Grass/Materials
+  artifactKey: Guid(5391344df5d27b74db6d4ac795526634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass/Materials using Guid(5391344df5d27b74db6d4ac795526634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeaf8927e0d5f8aa3b3eb5f8c568512') in 0.005065 seconds
+  Import took 0.014404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097738 seconds.
+  path: Assets/Stylized Grass/Materials/MatGrass.mat
+  artifactKey: Guid(6e57fd7aaf33635488e384fb42c3cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass/Materials/MatGrass.mat using Guid(6e57fd7aaf33635488e384fb42c3cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/GrassShader': unrecognized identifier 'Light' at line 8301 (on d3d11)
+
+Compiling Vertex program with DECALS_3RT SCREEN_SPACE_SHADOWS_OFF SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _BLENDMODE_OFF _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _REFRACTION_OFF
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT SHADOW_LOW SHADOW_HIGH SCREEN_SPACE_SHADOWS_ON USE_FPTL_LIGHTLIST INSTANCING_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ADD_PRECOMPUTED_VELOCITY _TRANSPARENT_WRITES_MOTION_VEC _DISABLE_SSR _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/GrassShader': unrecognized identifier 'mainLight' at line 8301 (on d3d11)
+
+Compiling Vertex program with DECALS_3RT SCREEN_SPACE_SHADOWS_OFF SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _BLENDMODE_OFF _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _REFRACTION_OFF
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT SHADOW_LOW SHADOW_HIGH SCREEN_SPACE_SHADOWS_ON USE_FPTL_LIGHTLIST INSTANCING_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ADD_PRECOMPUTED_VELOCITY _TRANSPARENT_WRITES_MOTION_VEC _DISABLE_SSR _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Shader Graphs/GrassShader': 'cross': implicit truncation of vector type at line 499 (on d3d11)
+
+Compiling Vertex program with INSTANCING_ON _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _BLENDMODE_OFF _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _REFRACTION_OFF
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ADD_PRECOMPUTED_VELOCITY _TRANSPARENT_WRITES_MOTION_VEC _DISABLE_SSR _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/GrassShader': unrecognized identifier 'Light' at line 8301 (on d3d11)
+
+Compiling Vertex program with DECALS_3RT SCREEN_SPACE_SHADOWS_OFF SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _BLENDMODE_OFF _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _REFRACTION_OFF
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT SHADOW_LOW SHADOW_HIGH SCREEN_SPACE_SHADOWS_ON USE_FPTL_LIGHTLIST INSTANCING_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ADD_PRECOMPUTED_VELOCITY _TRANSPARENT_WRITES_MOTION_VEC _DISABLE_SSR _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/GrassShader': unrecognized identifier 'mainLight' at line 8301 (on d3d11)
+
+Compiling Vertex program with DECALS_3RT SCREEN_SPACE_SHADOWS_OFF SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _BLENDMODE_OFF _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _REFRACTION_OFF
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT SHADOW_LOW SHADOW_HIGH SCREEN_SPACE_SHADOWS_ON USE_FPTL_LIGHTLIST INSTANCING_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ADD_PRECOMPUTED_VELOCITY _TRANSPARENT_WRITES_MOTION_VEC _DISABLE_SSR _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Shader Graphs/GrassShader': 'cross': implicit truncation of vector type at line 499 (on d3d11)
+
+Compiling Vertex program with INSTANCING_ON _SURFACE_TYPE_TRANSPARENT _ALPHATEST_ON _BLENDMODE_OFF _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _REFRACTION_OFF
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER
+Disabled keywords: _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ADD_PRECOMPUTED_VELOCITY _TRANSPARENT_WRITES_MOTION_VEC _DISABLE_SSR _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '0017ac0e45a8c863316da7267c4337de') in 0.362024 seconds
+  Import took 0.370207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Stylized Grass/Materials/MatGrass_LOD1.mat
+  artifactKey: Guid(4d89941a86e3849458607b88d5ac379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass/Materials/MatGrass_LOD1.mat using Guid(4d89941a86e3849458607b88d5ac379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0b914ee0a4639ce3cf0fea90faee8c') in 0.183509 seconds
+  Import took 0.191593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.772297 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_GLASS_MaskMap.png
+  artifactKey: Guid(18d719eb567b84e4fa6414e298eddfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_GLASS_MaskMap.png using Guid(18d719eb567b84e4fa6414e298eddfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5718cc759196f47879c28be8d9855a5') in 0.067040 seconds
+  Import took 0.080449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_MaskMap.png
+  artifactKey: Guid(9f92414d32bbc8c4bbc1fc60d2b4591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_MaskMap.png using Guid(9f92414d32bbc8c4bbc1fc60d2b4591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c397e778c81a45ed55326fdbcda558') in 0.023410 seconds
+  Import took 0.034741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006948 seconds.
+  path: Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_GLASS_MaskMap.png
+  artifactKey: Guid(18d719eb567b84e4fa6414e298eddfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZombieAnimationPackFree/Models/Appearance/BH-2/Material/BH_2_GLASS_MaskMap.png using Guid(18d719eb567b84e4fa6414e298eddfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5718cc759196f47879c28be8d9855a5') in 0.019431 seconds
+  Import took 0.027501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.285792 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDParticleMaterial.mat
+  artifactKey: Guid(b739a3f02ff77bf48b7636e64c3e3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDParticleMaterial.mat using Guid(b739a3f02ff77bf48b7636e64c3e3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04586f72b22979b2551d98a37a96f9fb') in 0.597454 seconds
+  Import took 0.607429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.180826 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(4ec7a32e54858364bb981695641a0a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(4ec7a32e54858364bb981695641a0a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958f8733ab3cbac7cd9b8e22f08b8797') in 0.547133 seconds
+  Import took 0.555754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(03f8a15aafc31e84a8199ef1423bd2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(03f8a15aafc31e84a8199ef1423bd2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549750fdc3c82b124322d7ba64a4639b') in 0.174400 seconds
+  Import took 0.188492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.077981 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c824c5f6ccb98f4a0e28c319e1aa1') in 0.513947 seconds
+  Import took 0.524061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4b6df91068f64cce8c64d1384be4d8') in 0.423024 seconds
+  Import took 0.432580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37842441816a187799b2d4212df9936e') in 0.346364 seconds
+  Import took 0.355859 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.013 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4523.
+Total: 4.111800 ms (FindLiveObjects: 0.734200 ms CreateObjectMapping: 0.300700 ms MarkObjects: 3.049500 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 818.464260 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(be872a2744b64c245af9663e64e2292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameManager.cs using Guid(be872a2744b64c245af9663e64e2292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6f894ebee63e6a858a9fde9f7626d4') in 0.121597 seconds
+  Import took 0.132869 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005847 seconds.
+Begin MonoManager ReloadAssembly
+Received signal SIGSEGV
+Stack trace:
+0x0000022600372b6b (Mono JIT Code) System.Collections.ObjectModel.ReadOnlyCollection`1<T_REF>:GetEnumerator ()
+0x00000227fae39af3 (Mono JIT Code) [VolumeComponent.cs:115] UnityEngine.Rendering.VolumeComponent:OnDisable () 
+0x00000226003be030 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffc2f79e460 (mono-2.0-bdwgc) [mini-runtime.c:2812] mono_jit_runtime_invoke 
+0x00007ffc2f722902 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffc2f72b95f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff76d3c2f14 (Unity) scripting_method_invoke
+0x00007ff76d3bb8b5 (Unity) ScriptingInvocation::Invoke
+0x00007ff76d3bbcce (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff76d438776 (Unity) SerializableManagedRef::CallMethod
+0x00007ff76d38d3a6 (Unity) MonoBehaviour::WillUnloadScriptableObject
+0x00007ff76d38765a (Unity) MonoManager::RemoveBehavioursFromManager
+0x00007ff76d37e448 (Unity) MonoManager::BeginReloadAssembly
+0x00007ff76d387445 (Unity) MonoManager::ReloadAssembly
+0x00007ff76e726441 (Unity) LoadDomainAndUserAssemblies
+0x00007ff76e7268ee (Unity) LoadUserAssemblies
+0x00007ff76eb4fc78 (Unity) <lambda_79a3ebc38cb5166d44d10a16a21fca24>::operator()
+0x00007ff76ec1af82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff76ec1d0e0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff76ec2086e (Unity) asio::io_service::run
+0x00007ff76eb96b80 (Unity) RunAssetImportWorkerClientV2
+0x00007ff76eb96bd0 (Unity) RunAssetImporterV2
+0x00007ff76e0b1db6 (Unity) Application::InitializeProject
+0x00007ff76ea296b2 (Unity) WinMain
+0x00007ff77089cad6 (Unity) __scrt_common_main_seh
+0x00007ffcb52a7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffcb6d7d241 (ntdll) RtlUserThreadStart
+

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637490709425035232
-    m_Hash: 1665208381
+      ticks: 637496286496882236
+    m_Hash: 1956560985
   m_LockFileStatus:
     m_FilePath: C:/GUESS OR DIE/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637490709458778109
-    m_Hash: 2639853390
+      ticks: 637496717243082818
+    m_Hash: 2265248072
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -446,6 +446,85 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
+    - packageId: com.unity.postprocessing@3.0.1
+      testable: 0
+      isDirectDependency: 1
+      version: 3.0.1
+      source: 1
+      resolvedPath: C:\GUESS OR DIE\Library\PackageCache\com.unity.postprocessing@3.0.1
+      assetPath: Packages/com.unity.postprocessing
+      name: com.unity.postprocessing
+      displayName: Post Processing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7
+        - 0.1.8
+        - 2.0.0-beta
+        - 2.0.1-beta
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.5-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.0.10-preview
+        - 2.0.11-preview
+        - 2.0.12-preview
+        - 2.0.13-preview
+        - 2.0.14-preview
+        - 2.0.15-preview
+        - 2.0.16-preview
+        - 2.0.17-preview
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.2.1
+        - 2.2.2
+        - 2.3.0
+        - 3.0.1
+        compatible:
+        - 2.3.0
+        - 3.0.1
+        verified: 3.0.1
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637388019030000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/PostProcessing.git
+        revision: a6dfd0808db2b14acfc32417e8c5c037ff934a28
+        path: 
     - packageId: com.unity.render-pipelines.high-definition@10.3.1
       testable: 0
       isDirectDependency: 1
@@ -608,6 +687,94 @@ m_PackageAssets:
         type: git
         url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 04da21e5dc442239eb39b80d9b201a16d860bd75
+        path: 
+    - packageId: com.unity.render-pipelines.high-definition-config@file:C:\GUESS
+        OR DIE\LocalPackages\com.unity.render-pipelines.high-definition-config
+      testable: 0
+      isDirectDependency: 1
+      version: 10.3.1
+      source: 4
+      resolvedPath: C:\GUESS OR DIE\LocalPackages\com.unity.render-pipelines.high-definition-config
+      assetPath: Packages/com.unity.render-pipelines.high-definition-config
+      name: com.unity.render-pipelines.high-definition-config
+      displayName: High Definition RP Config
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Configuration files for the High Definition Render Pipeline.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.15
+        - 9.0.0-preview.35
+        - 9.0.0-preview.57
+        - 9.0.0-preview.74
+        - 10.0.0-preview.27
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        compatible:
+        - 10.3.1
+        verified: 10.3.1
+      dependencies:
+      - name: com.unity.render-pipelines.core
+        version: 10.3.1
+      resolvedDependencies:
+      - name: com.unity.render-pipelines.core
+        version: 10.3.1
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: c502607c7eb9419ff235ff1648b5c01e7f2bd9c9
         path: 
     - packageId: com.unity.test-framework@1.1.20
       testable: 0
@@ -772,6 +939,7 @@ m_PackageAssets:
         - 1.5.0
         - 1.5.1
         - 1.5.3
+        - 1.5.4
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -790,6 +958,7 @@ m_PackageAssets:
         - 2.1.0
         - 2.1.1
         - 2.1.3
+        - 2.1.4
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -804,10 +973,12 @@ m_PackageAssets:
         - 3.0.0
         - 3.0.1
         - 3.0.3
+        - 3.0.4
         compatible:
         - 3.0.1
         - 3.0.3
-        verified: 3.0.3
+        - 3.0.4
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -3278,93 +3449,6 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 04da21e5dc442239eb39b80d9b201a16d860bd75
         path: 
-    - packageId: com.unity.render-pipelines.high-definition-config@10.3.1
-      testable: 0
-      isDirectDependency: 0
-      version: 10.3.1
-      source: 1
-      resolvedPath: C:\GUESS OR DIE\Library\PackageCache\com.unity.render-pipelines.high-definition-config@10.3.1
-      assetPath: Packages/com.unity.render-pipelines.high-definition-config
-      name: com.unity.render-pipelines.high-definition-config
-      displayName: High Definition RP Config
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Configuration files for the High Definition Render Pipeline.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 7.0.0
-        - 7.0.1
-        - 7.1.1
-        - 7.1.2
-        - 7.1.5
-        - 7.1.6
-        - 7.1.7
-        - 7.1.8
-        - 7.2.0
-        - 7.2.1
-        - 7.3.1
-        - 7.4.1
-        - 7.4.2
-        - 7.4.3
-        - 7.5.1
-        - 7.5.2
-        - 7.5.3
-        - 8.0.1
-        - 8.1.0
-        - 8.2.0
-        - 8.3.1
-        - 9.0.0-preview.15
-        - 9.0.0-preview.35
-        - 9.0.0-preview.57
-        - 9.0.0-preview.74
-        - 10.0.0-preview.27
-        - 10.1.0
-        - 10.2.0
-        - 10.2.1
-        - 10.2.2
-        - 10.3.1
-        compatible:
-        - 10.3.1
-        verified: 10.3.1
-      dependencies:
-      - name: com.unity.render-pipelines.core
-        version: 10.3.1
-      resolvedDependencies:
-      - name: com.unity.render-pipelines.core
-        version: 10.3.1
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637472781240000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 04da21e5dc442239eb39b80d9b201a16d860bd75
-        path: 
     - packageId: com.unity.burst@1.3.4
       testable: 0
       isDirectDependency: 0
@@ -3467,6 +3551,7 @@ m_PackageAssets:
         - 1.4.4-preview.1
         - 1.4.4-preview.2
         - 1.4.4
+        - 1.4.5
         - 1.5.0-pre.3
         - 1.5.0-pre.4
         compatible:
@@ -3522,9 +3607,10 @@ m_PackageAssets:
         - 1.4.4-preview.1
         - 1.4.4-preview.2
         - 1.4.4
+        - 1.4.5
         - 1.5.0-pre.3
         - 1.5.0-pre.4
-        verified: 1.4.4
+        verified: 1.4.5
       dependencies:
       - name: com.unity.mathematics
         version: 1.2.1
@@ -3702,6 +3788,20 @@ m_PackageAssets:
         revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
         path: 
   m_LocalPackages:
-    m_LocalFileStatus: []
+    m_LocalFileStatus:
+    - m_FilePath: C:\GUESS OR DIE\LocalPackages\com.unity.render-pipelines.high-definition-config/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637485201780000000
+      m_Hash: 1205150556
+    - m_FilePath: C:\GUESS OR DIE\LocalPackages\com.unity.render-pipelines.high-definition-config
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
 m_ProjectPath: C:/GUESS OR DIE/Packages
 m_EditorVersion: 2020.2.4f1 (becced5a802b)
